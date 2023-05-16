@@ -22,4 +22,4 @@ HEADERS  += tools_widget.h \
 FORMS    += tools_widget.ui
 
 RESOURCES += \
-    xml_file.qrc
+    resources.qrc

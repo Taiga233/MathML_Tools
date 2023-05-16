@@ -430,7 +430,7 @@ all: release-all debug-all  FORCE
 clean: release-clean debug-clean  FORCE
 distclean: release-distclean debug-distclean  FORCE
 	-$(DEL_FILE) Makefile
-	-$(DEL_FILE) D:\Qt\MathML_Tools\build-MathML_Tools-Static_5_5_1_32bit-Release\mathml_tools_plugin_import.cpp
+	-$(DEL_FILE) "C:\Users\Administrator\Documents\VScode repository\MathML_Tools\build-MathML_Tools-Static_5_5_1_32bit-Release\mathml_tools_plugin_import.cpp"
 
 release-mocclean:
 	$(MAKE) -f $(MAKEFILE).Release mocclean

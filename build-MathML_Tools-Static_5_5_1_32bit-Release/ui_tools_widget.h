@@ -123,10 +123,6 @@ public:
 
         verticalLayout->addWidget(label_3);
 
-        textEdit->raise();
-        pushButton_2->raise();
-        label_4->raise();
-        label_3->raise();
 
         retranslateUi(Tools_Widget);
 
@@ -139,7 +135,7 @@ public:
         label->setText(QApplication::translate("Tools_Widget", "select your XML file:", 0));
         pushButton->setText(QApplication::translate("Tools_Widget", "open file...", 0));
         label_2->setText(QApplication::translate("Tools_Widget", "Path:", 0));
-        lineEdit->setText(QApplication::translate("Tools_Widget", "./CRC_parameter_table.xml", 0));
+        lineEdit->setText(QString());
 #ifndef QT_NO_TOOLTIP
         textEdit->setToolTip(QApplication::translate("Tools_Widget", "<html><head/><body><p>MathML Referance:</p><p><a href=\"https://developer.mozilla.org/en-US/docs/Web/MathML\"><span style=\" text-decoration: underline; color:#0000ff;\">MathML | MDN (mozilla.org)</span></a></p></body></html>", 0));
 #endif // QT_NO_TOOLTIP
@@ -147,7 +143,7 @@ public:
         textEdit->setWhatsThis(QApplication::translate("Tools_Widget", "<html><head/><body><p><br/></p></body></html>", 0));
 #endif // QT_NO_WHATSTHIS
         label_4->setText(QApplication::translate("Tools_Widget", "set formula font size:", 0));
-        pushButton_2->setText(QApplication::translate("Tools_Widget", "Start show MathML formula", 0));
+        pushButton_2->setText(QApplication::translate("Tools_Widget", "Show MathML formula", 0));
         label_3->setText(QApplication::translate("Tools_Widget", "Notes", 0));
     } // retranslateUi
 

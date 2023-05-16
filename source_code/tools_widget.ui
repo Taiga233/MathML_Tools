@@ -50,7 +50,7 @@
      <item>
       <widget class="QLineEdit" name="lineEdit">
        <property name="text">
-        <string>./CRC_parameter_table.xml</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -99,7 +99,7 @@
       </size>
      </property>
      <property name="text">
-      <string>Start show MathML formula</string>
+      <string>Show MathML formula</string>
      </property>
     </widget>
    </item>
@@ -114,10 +114,6 @@
     </widget>
    </item>
   </layout>
-  <zorder>textEdit</zorder>
-  <zorder>pushButton_2</zorder>
-  <zorder>label_4</zorder>
-  <zorder>label_3</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
