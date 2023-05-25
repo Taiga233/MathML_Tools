@@ -7,6 +7,13 @@ Usage
 * Click `Show MathML formula` button.
 * Enjoy.
 
+helps
+
+- ![01](./usage_pic/01.png)
+- ![02](./usage_pic/02.png)
+- ![03](./usage_pic/03.png)
+- ![04](./usage_pic/04.png)
+
 使用说明
 
 * 运行程序 `MathML_Tools.exe`。
